@@ -14,4 +14,4 @@ http://0.0.0.0:8000/api/openapi#
 
 
 ### ссылка на гите
-https://github.com/sraduhin/anonimous_test_issue
+https://github.com/sraduhin/anonimous_testissue
