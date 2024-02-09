@@ -1,7 +1,10 @@
 beautifulsoup4==4.12.3
 fastapi==0.109.2
+httpx==0.26.0
 parsedatetime==2.6
 pydantic==2.6.1
+pytest==7.4.4
+pytest-asyncio==0.23.4
 python-dateutil==2.8.2
 python-multipart==0.0.7
 uvicorn==0.27.0.post1

@@ -1,4 +1,7 @@
 import datetime
+import re
+
+
 import parsedatetime
 from dateutil.relativedelta import relativedelta
 
@@ -43,16 +46,13 @@ NUMBERS = {
 
 
 def get_date(datestring: str):
-    print(datestring)
-    result, code = calendar.parse(datestring)
-    print(result)
+    cutted = re.sub(r'^\D+|\D+$', '', datestring)
+    result, code = calendar.parse(cutted)
     if not code:
         raise ValueError(
             f"Не удалось определить формат времени в строке {datestring}"
         )
-    return datetime.datetime(*result[:3]) - relativedelta(
-        years=datetime.datetime.now().year
-    )
+    return datetime.datetime(*result[:3])
 
 
 def normalize_date(date: datetime.datetime):

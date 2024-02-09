@@ -1,6 +1,9 @@
 from typing import Annotated
 
+import fastapi
 from fastapi import APIRouter, Depends
+from starlette.responses import JSONResponse
+
 from services.order import FileService
 from dependencies.dep import get_payment_service, get_order_service
 
@@ -23,4 +26,6 @@ async def load_files(
 ):
     order = await order_service.read_file(order)
     payment = await payment_service.read_file(payment)
-    return order.dump(payment)
+    return JSONResponse(
+        status_code=fastapi.status.HTTP_200_OK, content=order.dump(payment)
+    )
