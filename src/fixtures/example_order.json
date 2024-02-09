@@ -1,0 +1,84 @@
+{
+	"order_number": "1",
+	"order":
+	{
+		"sellers":
+		{
+			"sel1":
+			{
+				"name": "Иванов Лев Давидович"
+			},
+			"sel2":
+			{
+				"name": "Петрова Мария Васильевна"
+			},
+			"@attributes":
+			{
+				"desc": "Продавцы"
+			}
+		},
+		"payment":
+		{
+			"val": "10000",
+			"decimal": "00",
+			"currency": "rub",
+			"@attributes":
+			{
+				"desc": "Оплата"
+			}
+		},
+		"buyer":
+		{
+			"name": "ООО Управляющая компания «Арасака»",
+			"@attributes":
+			{
+				"desc": "Покупатель"
+			}
+		},
+		"target":
+		{
+			"property_type":
+			{
+				"@value": "ЗемельныйУчасток",
+				"@attributes":
+				{
+					"desc": "ВидОбъектаНедвижимости"
+				}
+			},
+			"type_of_use":
+			{
+				"@value": "для сельскохозяйственного производства",
+				"@attributes":
+				{
+					"desc": "ВидРазрешенногоИспользования"
+				}
+			},
+			"cadastr":
+			{
+				"@value": "1237:09234123532:4521",
+				"@attributes":
+				{
+					"desc": "КадастровыйНомер"
+				}
+			},
+			"square":
+			{
+				"val": "5",
+				"units": "га",
+				"@attributes":
+				{
+					"desc": "Площадь"
+				}
+			},
+			"@attributes":
+			{
+				"desc": "ПредметДоговора"
+			}
+		},
+		"@attributes":
+		{
+			"order_number": "1",
+			"order_date": "5 ноября 2022 года"
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"payment":
+	{
+		"deadline":
+		{
+			"text": "через 30 дней со дня подписания договора",
+			"@attributes":
+			{
+				"desc": "СрокОплаты"
+			}
+		},
+		"Target":
+		{
+			"adress":
+			{
+				"@value": "Московская область, 5 км от ориентира Ракушки",
+				"@attributes":
+				{
+					"desc": "адресс"
+				}
+			},
+			"objects":
+			{
+				"obj1": "здание",
+				"obj2": "склад",
+				"@attributes":
+				{
+					"desc": "ОбъектыНаЗемельномУчастке"
+				}
+			},
+			"restrictions":
+			{
+				"@value": "ипотека",
+				"@attributes":
+				{
+					"desc": "ОбременениеОбъектаНедвижимости"
+				}
+			},
+			"is_completed":
+			{
+				"@value": "false",
+				"@attributes":
+				{
+					"desc": "false"
+				}
+			},
+			"@attributes":
+			{
+				"desc": "ПредметДоговора"
+			}
+		},
+		"@attributes":
+		{
+			"order number": "1"
+		}
+	}
+}

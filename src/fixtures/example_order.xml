@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Order OrderNumber="1" OrderDate="5 ноября 2022 года">
+  <Sellers desc="Продавцы">
+    <Sel1>
+		<name>Иванов Лев Давидович</name>
+	</Sel1>
+    <Sel2>
+		<name>Иванов Лев Давидович</name>
+	</Sel2>
+  </Sellers>
+  <Payment desc="Оплата">
+    <val>10000</val>
+    <decimal>00</decimal>
+    <currency>rub</currency>
+  </Payment>
+  <Buyer desc="Покупатель">
+    <name>ООО Управляющая компания «Арасака»</name>
+  </Buyer>
+  <Target desc="ПредметДоговора">
+    <PropertyType desc="ВидОбъектаНедвижимости">ЗемельныйУчасток</PropertyType>
+    <TypeOfUse desc="ВидРазрешенногоИспользования">для сельскохозяйственного производства</TypeOfUse>
+    <Cadastr desc="КадастровыйНомер">1237:09234123532:4521</Cadastr>
+    <square desc="Площадь">
+      <val>5</val>
+      <units>га</units>
+    </square>
+  </Target>
+</Order>

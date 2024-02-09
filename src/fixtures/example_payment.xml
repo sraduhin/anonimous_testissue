@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Payment OrderNumber="1">
+  <Deadline desc="Срок Оплаты">
+	<time>в течении 30 дней со дня подписания договора</time>
+  </Deadline>
+  <Target desc="ПредметДоговора">
+    <adress desc="адресс">Московская область, 5 км от ориентира Ракушки</adress>
+    <objects desc="ОбъектыНаЗемельномУчастке">
+		<obj1>здание</obj1>
+		<obj2>склад</obj2>
+	</objects>
+	<restrictions desc="ОбременениеОбъектаНедвижимости">ипотека</restrictions>
+	<is_completed desc="ОбъектПереданПокупателюДоДоговора">false</is_completed>
+  </Target>
+</Payment>

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: fastapi-app
+    ports:
+      - "8000:8000"
+    command: /entrypoint.sh
+    volumes:
+      - ./src:/opt/app
